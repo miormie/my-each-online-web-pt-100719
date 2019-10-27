@@ -9,6 +9,5 @@ while i < array.length do
 end 
 array 
 else 
-  "Hey!No block was given!"
-end 
+  #"Hey!No block was given!"
 end 
