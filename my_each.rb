@@ -1,5 +1,5 @@
 def my_each(array)               # put argument(s) here
-if block_given?
+#if block_given?
 i = 0 
 while i < array.length do 
   yield 
@@ -8,6 +8,7 @@ while i < array.length do
   
 end 
 array 
-else 
-  #"Hey!No block was given!"
+# else 
+#   "Hey!No block was given!"
+# end 
 end 
